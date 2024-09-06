@@ -1,0 +1,22 @@
+function getEvenNumbers= (arr) {
+    return arr.filter(num => num % 2 === 0);
+  }
+  
+  // Example usage:
+  let numbers = [1, 2, 3, 4, 5, 6];
+  console.log (getEvenNumbers(numbers)); // Output: [2, 4, 6]
+  function filterPeopleOver30(people) {
+    return people.filter(person => person.age > 30);
+  }
+  
+  console.log(filterPeopleOver30(people));
+  // Output: [{ name: "Bob", age: 35, email: "bob@example.com" }, { name: "Charlie", age: 40, email: "charlie@example.com" }]
+  
+  function getEvenNumbers(arr) {
+    return arr.filter(num => num % 2 === 0);
+  }
+  
+  // Example usage:
+  let numbers = [1, 2, 3, 4, 5, 6];
+  console.log(getEvenNumbers(numbers)); // Output: [2, 4, 6]
+  

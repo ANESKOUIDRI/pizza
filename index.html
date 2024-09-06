@@ -1,0 +1,161 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizzorino Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+        }
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            display: inline-block;
+        }
+        nav {
+            float: right;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+        }
+        .section {
+            padding: 20px 0;
+        }
+        .section img {
+            max-width: 100%;
+            height: auto;
+        }
+        .recipes {
+            display: flex;
+            justify-content: space-between;
+        }
+        .recipe {
+            border: 1px solid #ddd;
+            padding: 10px;
+            width: 23%;
+            box-sizing: border-box;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        footer a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            width: 300px;
+        }
+        form input {
+            margin: 5px 0;
+            padding: 10px;
+            border: 1px solid #ddd;
+        }
+        form button {
+            padding: 10px;
+            background-color: #333;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <div class="logo">Pizzorino</div>
+            <nav>
+                <a href="#home">Home</a>
+                <a href="#about">About Us</a>
+                <a href="#recipes">Recipes</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="section">
+        <div class="container">
+            <h1>Welcome to Pizzorino!</h1>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuHhRFAtngDk96kiAAeiIbm0fGrjCI-rXfZcM51MaWhOa3K5ewj4N1h1RUNHPoX3eG_OA&usqp=CAU" alt="Pizzorino Shop">
+            <p>At Pizzorino, we offer the best pizzas made with fresh ingredients and a passion for delicious flavors. Come visit us for an unforgettable pizza experience.</p>
+        </div>
+    </section>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2>About Pizzorino</h2>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRl6s5vuhQ4icsRczEMRwZVPc4Dg6G1aj2aFy0GQCnZdEbJPVpdWnxZBLRZRecqInwIvRg&usqp=CAU" alt="Pizzorino Staff">
+            <p>Pizzorino has been serving the community with amazing pizzas since 2020. Our team is dedicated to providing the best pizza experience with quality ingredients and a warm atmosphere.</p>
+        </div>
+    </section>
+
+    <section id="recipes" class="section">
+        <div class="container">
+            <h2>Our Krabby Pizza Recipes</h2>
+            <div class="recipes">
+                <div class="recipe">
+                    <h3>Classic Krabby Pizza</h3>
+                    <p>Tomato sauce, mozzarella cheese, crab meat, bell peppers, onions.</p>
+                </div>
+                <div class="recipe">
+                    <h3>Spicy Krabby Pizza</h3>
+                    <p>Tomato sauce, mozzarella cheese, crab meat, jalapeños, red onions.</p>
+                </div>
+                <div class="recipe">
+                    <h3>Cheesy Krabby Pizza</h3>
+                    <p>Tomato sauce, mozzarella cheese, crab meat, extra cheese, garlic.</p>
+                </div>
+                <div class="recipe">
+                    <h3>Veggie Krabby Pizza</h3>
+                    <p>Tomato sauce, mozzarella cheese, crab meat, mushrooms, spinach, olives.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form>
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="tel" name="phone" placeholder="Your Phone Number" required>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Pizzorino. All rights reserved.</p>
+        <p>
+            <a href="#">Facebook</a> |
+            <a href="#">Twitter</a> |
+            <a href="#">Instagram</a>
+        </p>
+        <p>Phone: (123) 456-7890</p>
+    </footer>
+
+</body>
+</html>
